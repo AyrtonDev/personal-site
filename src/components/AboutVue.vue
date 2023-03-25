@@ -1,5 +1,5 @@
 <template>
-  <el-container class="about">
+  <section class="about">
     <div class="title">
       <h1>About me</h1>
     </div>
@@ -45,7 +45,7 @@
     </div>
 
     <div class="border-2"></div>
-  </el-container>
+  </section>
 </template>
 
 <script setup lang="ts"></script>
@@ -56,6 +56,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .about div p {
@@ -65,6 +66,7 @@
 
 .text {
   width: 80%;
+  margin-bottom: 24px;
 }
 
 .primary {
@@ -81,7 +83,7 @@
   position: absolute;
   width: 1000px;
   height: 150px;
-  left: 50%;
+  left: 25%;
   top: -10%;
 }
 
@@ -91,7 +93,7 @@
   position: absolute;
   width: 900px;
   height: 500px;
-  left: 26%;
-  top: 30%;
+  left: 6%;
+  bottom: -5%;
 }
 </style>

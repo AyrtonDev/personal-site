@@ -1,28 +1,32 @@
 <template>
-  <el-container>
-    <el-aside width="20%">Latereal</el-aside>
-    <el-main><AboutVue /></el-main>
-  </el-container>
+  <main class="main">
+    <aside class="aside"><AsideVue /></aside>
+    <div class="main_container"><AboutVue /></div>
+  </main>
 </template>
 
 <script setup lang="ts">
-import PrincipalVue from "./components/PrincipalVue.vue";
 import AboutVue from "./components/AboutVue.vue";
-
-const route = {
-  "/": PrincipalVue,
-  "/about": AboutVue,
-};
+import AsideVue from "./components/AsideVue.vue";
 </script>
 
 <style>
-.el-container {
+.main {
+  max-width: 1300px;
+  width: 100%;
   height: 100%;
-}
-
-.el-main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.aside {
+  width: 20%;
+}
+
+.main_container {
+  display: flex;
+  width: 80%;
+  height: inherit;
 }
 </style>

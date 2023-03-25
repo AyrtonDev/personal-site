@@ -1,5 +1,5 @@
 <template>
-  <el-container>
+  <section class="introduce">
     <div class="photo">
       <img
         src="https://media.licdn.com/dms/image/C4D03AQFPFPIuaeq4RA/profile-displayphoto-shrink_400_400/0/1636979826156?e=1684972800&v=beta&t=m28uXWNIvre5p_3E1YHztqMQVeDBZg8kZO62Jip9B2E"
@@ -22,13 +22,13 @@
     <div class="job">
       <p>Front End Developer</p>
     </div>
-  </el-container>
+  </section>
 </template>
 
 <script setup lang="ts"></script>
 
 <style>
-.el-container {
+.introduce {
   width: inherit;
   height: inherit;
   position: relative;
