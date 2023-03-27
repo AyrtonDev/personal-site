@@ -1,13 +1,12 @@
 <template>
   <main class="main">
-    <aside class="aside"><AsideVue /></aside>
-    <div class="main_container"><AboutVue /></div>
+    <aside class="aside"><Aside /></aside>
+    <div class="main_container"><RouterView></RouterView></div>
   </main>
 </template>
 
 <script setup lang="ts">
-import AboutVue from "./components/AboutVue.vue";
-import AsideVue from "./components/AsideVue.vue";
+import Aside from "./components/Aside.vue";
 </script>
 
 <style>
