@@ -6,7 +6,7 @@
       />
     </div>
 
-    <div class="border-1"></div>
+    <div class="border-home1"></div>
 
     <div class="name">
       <div class="given-name">
@@ -17,7 +17,7 @@
       </div>
     </div>
 
-    <div class="border-2"></div>
+    <div class="border-home2"></div>
 
     <div class="job">
       <p>Front End Developer</p>
@@ -29,7 +29,7 @@
 
 <style>
 .introduce {
-  width: inherit;
+  width: 100%;
   height: inherit;
   position: relative;
 }
@@ -78,7 +78,7 @@
   margin: 0;
 }
 
-.border-1 {
+.border-home1 {
   background-color: transparent;
   border: 5px solid #f9f9f9;
 
@@ -99,7 +99,7 @@
   left: 5%;
 }
 
-.border-2 {
+.border-home2 {
   background-color: transparent;
   border: 5px solid #f9f9f9;
 

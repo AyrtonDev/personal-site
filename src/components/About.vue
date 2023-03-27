@@ -4,7 +4,7 @@
       <h1>About me</h1>
     </div>
 
-    <div class="border-1"></div>
+    <div class="border-about1"></div>
 
     <div class="text">
       <p>
@@ -44,7 +44,7 @@
       </p>
     </div>
 
-    <div class="border-2"></div>
+    <div class="border-about2"></div>
   </section>
 </template>
 
@@ -77,7 +77,7 @@
   color: #ffc36a;
 }
 
-.border-1 {
+.border-about1 {
   border: 5px solid #74c5ff;
   background-color: transparent;
   position: absolute;
@@ -87,7 +87,7 @@
   top: -10%;
 }
 
-.border-2 {
+.border-about2 {
   border: 5px solid #ffc36a;
   background-color: transparent;
   position: absolute;
