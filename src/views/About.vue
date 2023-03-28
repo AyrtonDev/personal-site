@@ -67,6 +67,7 @@
 .text {
   width: 80%;
   margin-bottom: 24px;
+  animation: fade 700ms linear, uptext 2s ease-out 700ms;
 }
 
 .primary {
@@ -95,5 +96,24 @@
   height: 500px;
   left: 6%;
   bottom: -5%;
+  animation: fade 700ms linear, uptext 2s ease-out 700ms;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes uptext {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
 }
 </style>
