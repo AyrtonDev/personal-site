@@ -98,10 +98,6 @@
 }
 
 .github .logo {
-  background-color: #f9f9f9;
-  border-radius: 49%;
-  padding-left: 2px;
-  padding-right: 2px;
   animation: fade 700ms linear, scaleWide 2s ease-out 700ms;
 }
 
@@ -110,14 +106,24 @@
 }
 
 .linkedin .logo {
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  height: 99px;
   animation: fade 1400ms linear, scaleWide 2s ease-out 1400ms;
 }
 
 .logo img {
-  width: 100%;
+  width: 90%;
+}
+
+.github img {
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+}
+
+.linkedin .logo img {
+  background-color: #f9f9f9;
+  border-radius: 10px;
 }
 
 .link p {
@@ -169,6 +175,10 @@
     padding-left: 0;
   }
 
+  .border-contact1 {
+    left: 15%;
+  }
+
   .links {
     width: 100%;
     justify-content: flex-start;
@@ -184,6 +194,20 @@
 
   .github .logo {
     width: 250px;
+  }
+}
+
+@media (max-width: 1000px) and (max-height: 800px) {
+  .border-contact1 {
+    top: -12%;
+  }
+
+  .link .logo {
+    width: 220px;
+  }
+
+  .github .logo {
+    width: 270px;
   }
 }
 </style>
