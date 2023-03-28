@@ -222,4 +222,16 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: 1000px) and (max-height: 800px) {
+  .border-know1 {
+    left: 15%;
+    top: -12%;
+  }
+
+  .group1,
+  .group2 {
+    padding-top: 0;
+  }
+}
 </style>

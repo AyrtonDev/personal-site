@@ -138,4 +138,27 @@
     height: 800px;
   }
 }
+
+@media (max-width: 1000px) and (max-height: 800px) {
+  .text {
+    width: 90%;
+    height: 75%;
+  }
+
+  .about div p {
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .border-about1 {
+    left: 15%;
+    top: -12%;
+  }
+
+  .border-about2 {
+    left: 0;
+    bottom: -20%;
+    height: 660px;
+  }
+}
 </style>

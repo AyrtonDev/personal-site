@@ -134,4 +134,35 @@
     font-size: 2rem;
   }
 }
+
+@media (max-width: 1000px) and (max-height: 800px) {
+  .photo {
+    width: 15rem;
+    align-self: flex-end;
+    top: 30%;
+    right: 0;
+  }
+
+  .name div p {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .name {
+    top: 3.5rem;
+  }
+
+  .border-home1 {
+    top: 2rem;
+    height: 150px;
+  }
+
+  .border-home2 {
+    height: 70px;
+  }
+
+  .job {
+    font-size: 1.8rem;
+  }
+}
 </style>

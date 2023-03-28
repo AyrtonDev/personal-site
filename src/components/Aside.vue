@@ -65,6 +65,7 @@
 }
 
 .anime-1 {
+  width: 50px;
   border-top: 5px solid #74c5ff;
   border-bottom: 5px solid #74c5ff;
   border-right-color: #74c5ff;
