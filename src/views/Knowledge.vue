@@ -100,12 +100,15 @@
 
 .group1 {
   display: flex;
-  width: 100%;
+  width: 90%;
   align-items: center;
+  border: 5px solid #74c5ff;
+  padding: 20px;
+  animation: fade 700ms linear, slideinLeft 2s ease-out 700ms;
 }
 
 .group1 .item1 {
-  width: 100px;
+  width: 70px;
   height: auto;
   margin-left: 5rem;
 }
@@ -117,17 +120,52 @@
 .group2 {
   display: flex;
   flex-direction: row-reverse;
-  width: 100%;
+  width: 90%;
   align-items: center;
+  border: 5px solid #ffc36a;
+  padding: 20px;
+  animation-name: slideinRight;
+  animation-duration: 2s;
+  animation-delay: 600ms;
+  animation: fade 700ms linear, slideinRight 2s ease-out 700ms;
 }
 
 .group2 .item2 {
-  width: 100px;
+  width: 70px;
   height: auto;
   margin-right: 5rem;
 }
 
 .group2 .item2 > img {
   width: 100%;
+}
+
+@keyframes slideinLeft {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideinRight {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
 }
 </style>
