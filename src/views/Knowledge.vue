@@ -173,14 +173,18 @@
 
   .container-k {
     width: 100%;
-    justify-content: space-around;
+    justify-content: flex-start;
   }
 
   .group1 {
-    width: 90%;
+    width: 100%;
     padding: 10px;
+    padding-top: 0;
     flex-wrap: wrap;
     justify-content: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
   }
 
   .group1 h2 {
@@ -190,11 +194,15 @@
   }
 
   .group2 {
-    width: 90%;
-    padding: 10px;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 10px;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
+    border-top: none;
+    border-left: none;
+    border-right: none;
   }
 
   .group2 h2 {
@@ -227,11 +235,6 @@
   .border-know1 {
     left: 15%;
     top: -12%;
-  }
-
-  .group1,
-  .group2 {
-    padding-top: 0;
   }
 }
 </style>
