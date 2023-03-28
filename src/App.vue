@@ -45,4 +45,18 @@ import Aside from "./components/Aside.vue";
   opacity: 0;
   transform: translateX(-30%);
 }
+
+@media (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .aside {
+    width: 100%;
+  }
+
+  .main_container {
+    width: 90%;
+  }
+}
 </style>

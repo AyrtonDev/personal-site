@@ -116,4 +116,26 @@
     transform: translateY(0%);
   }
 }
+
+@media (max-width: 1000px) {
+  .text {
+    width: 90%;
+    height: 80%;
+  }
+
+  .about div p {
+    text-align: justify;
+    font-size: 1.2rem;
+  }
+
+  .border-about1 {
+    left: 15%;
+  }
+
+  .border-about2 {
+    left: 0;
+    bottom: -20%;
+    height: 800px;
+  }
+}
 </style>
