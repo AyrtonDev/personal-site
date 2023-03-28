@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Principal from "../components/Principal.vue";
-import About from "../components/About.vue";
-import Knowledge from "../components/Knowledge.vue";
-import Contact from "../components/Contact.vue";
+import Principal from "../views/Principal.vue";
+import About from "../views/About.vue";
+import Knowledge from "../views/Knowledge.vue";
+import Contact from "../views/Contact.vue";
 
 const routes = [
   {
@@ -11,14 +11,17 @@ const routes = [
   },
   {
     path: "/about",
+    name: "about",
     component: About,
   },
   {
     path: "/knowledge",
+    name: "knowledge",
     component: Knowledge,
   },
   {
     path: "/contact",
+    name: "contact",
     component: Contact,
   },
 ];

@@ -1,9 +1,7 @@
 <template>
   <section class="introduce">
     <div class="photo">
-      <img
-        src="https://media.licdn.com/dms/image/C4D03AQFPFPIuaeq4RA/profile-displayphoto-shrink_400_400/0/1636979826156?e=1684972800&v=beta&t=m28uXWNIvre5p_3E1YHztqMQVeDBZg8kZO62Jip9B2E"
-      />
+      <img src="/images/Ayrton.jpeg" alt="Ayrton photo" />
     </div>
 
     <div class="border-home1"></div>

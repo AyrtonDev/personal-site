@@ -65,7 +65,7 @@
   height: 70px;
   border-right: 5px solid #f9f9f9;
   margin-right: 12px;
-  transition: 500ms;
+  transition: 600ms;
 }
 
 .anime-1 {
