@@ -32,7 +32,7 @@
         <p>
           Here is my E-mail:
           <a href="mailto:ayrtong.guerra@gmail.com" class="text-special"
-            >ayrtong.guerra@gmail.com</a
+            >ayrtong.guerra@<wbr />gmail.com</a
           >
         </p>
       </div>
@@ -161,6 +161,29 @@
   }
   100% {
     color: #74c5ff;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact {
+    padding-left: 0;
+  }
+
+  .links {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .link {
+    margin-bottom: 5rem;
+  }
+
+  .link .logo {
+    width: 200px;
+  }
+
+  .github .logo {
+    width: 250px;
   }
 }
 </style>

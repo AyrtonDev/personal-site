@@ -42,10 +42,6 @@
   display: flex;
 }
 
-.list-link {
-  list-style: none;
-}
-
 .list-link > div:last-child {
   margin-bottom: 0px;
 }
@@ -69,7 +65,6 @@
 }
 
 .anime-1 {
-  width: 50px;
   border-top: 5px solid #74c5ff;
   border-bottom: 5px solid #74c5ff;
   border-right-color: #74c5ff;
@@ -80,5 +75,49 @@
   border-top: 5px solid #ffc36a;
   border-bottom: 5px solid #ffc36a;
   border-right-color: #ffc36a;
+}
+
+@media (max-width: 1000px) {
+  .list-link {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .list-link > div {
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .list-link > div:last-child {
+    margin-right: 0px;
+  }
+
+  .link-item {
+    background-color: transparent;
+    width: 50px;
+    height: 0;
+    border-bottom: 5px solid #f9f9f9;
+    margin-right: 0;
+    transition: 600ms;
+  }
+
+  .anime-1 {
+    height: 30px;
+    border-left: 5px solid #74c5ff;
+    border-bottom-color: #74c5ff;
+    border-right: 5px solid #74c5ff;
+    border-top: none;
+  }
+
+  .anime-2 {
+    height: 30px;
+    border-left: 5px solid #ffc36a;
+    border-bottom-color: #ffc36a;
+    border-right: 5px solid #ffc36a;
+    border-top: none;
+  }
 }
 </style>

@@ -27,6 +27,8 @@
 
 <style>
 .introduce {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: inherit;
   position: relative;
@@ -107,5 +109,29 @@
 
   bottom: 11%;
   left: 0;
+}
+
+@media (max-width: 1000px) {
+  .photo {
+    width: 20rem;
+    align-self: flex-end;
+    top: 30%;
+    right: 0;
+  }
+
+  .border-home1 {
+    top: 2rem;
+  }
+
+  .name {
+    top: 4.5rem;
+  }
+  .border-home2 {
+    height: 70px;
+  }
+
+  .job {
+    font-size: 2rem;
+  }
 }
 </style>
