@@ -141,8 +141,7 @@
 
 @media (max-width: 1000px) and (max-height: 800px) {
   .text {
-    width: 90%;
-    height: 75%;
+    height: 80%;
   }
 
   .about div p {
@@ -157,8 +156,8 @@
 
   .border-about2 {
     left: 0;
-    bottom: -20%;
-    height: 660px;
+    bottom: -38%;
+    height: 800px;
   }
 }
 </style>
